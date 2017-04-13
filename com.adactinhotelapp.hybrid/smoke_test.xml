@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin_Portal_Validation">
+  <test name="Smoke_Test">
+    <classes>
+      <class name="testCases.VerifyHomePage"/>
+      <class name="testCases.VerifyValidUserLogIn"/>
+    </classes>
+  </test> <!--  Smoke_Test -->
+</suite> <!-- Adactin_Portal_Validation -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Adactin_Portal_Validation]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="testCases.VerifyValidUserLogIn">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.VerifyValidUserLogIn -->
+      <class name="testCases.VerifyInvalidUserLogIn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="seUp"/>
+          <include name="test_InvalidUserLogIn"/>
+        </methods>
+      </class> <!-- testCases.VerifyInvalidUserLogIn -->
+      <class name="testCases.VerifyForgotPassword">
+        <methods>
+          <include name="seUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.VerifyForgotPassword -->
+      <class name="testCases.VerifyHomePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.VerifyHomePage -->
+      <class name="testCases.VerifyPopUpTextNewUserRegistration">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.VerifyPopUpTextNewUserRegistration -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Adactin_Portal_Validation] -->

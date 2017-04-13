@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adactin_Portal_Validation">
+  <test name="Regression">
+    <classes>
+      <class name="testCases.VerifyHomePage"/>
+      <class name="testCases.VerifyValidUserLogIn"/>
+      <class name="testCases.VerifyInvalidUserLogIn"/>
+       <class name="testCases.VerifyForgotPassword"/>
+      <class name="testCases.VerifyPopUpTextNewUserRegistration"/>
+    </classes>
+  </test> <!-- Regression -->
+</suite> <!-- Adactin_Portal_Validation -->
